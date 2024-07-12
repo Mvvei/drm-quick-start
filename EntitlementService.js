@@ -129,6 +129,7 @@
 				});
 
 				response.json(licenseToken);
+				console.log(licenseToken)
 			});
 
 			return router;

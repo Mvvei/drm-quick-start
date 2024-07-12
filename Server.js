@@ -15,8 +15,14 @@
     // We disable etag as it causes API calls to be cached even with Cache-Control: no-cache.
     app.disable("etag");
 
+    // Allow CORS
+    let cors = require('cors');
+    app.use(cors());
+    
     // At /, we serve the website folder as static resources.
-    app.use(express.static(__dirname + '/Website'));
+    app.use(express.static('Website'));
+
+    
 
     // At /api/catalog is the catalog API that provides data for the frontend.
     let catalogApi = require("./CatalogApi");
