@@ -52,10 +52,25 @@
         },
         {
             "name": "Lena",
-            "url": "http://localhost:8120/lena2/cmaf/manifest.mpd",
+            "url": "https://f177dfb80b7349c8e418704e.blob.core.windows.net/video-output/scene/manifest.mpd",
             "keys": [
                 {
-                    "keyId": "f8c12912-c902-409a-8ae1-a82f280e7cb5",
+                    "keyId": "a991e012-abd0-4715-8ba9-6ce7837029fc",
+                    /*
+                    {
+                        "TenantType": "Mosaic",
+                        "BitrateLadder": "V2",
+                        "EncodingMode": "Default",
+                        "KeyId": "a991e012-abd0-4715-8ba9-6ce7837029fc",
+                        "KeyIds": null,
+                        "JobId": "c66b39fe-b72e-4fce-9eb9-813e2d64d45e",
+                        "TenantId": "317bab21-44d2-4a79-99b6-0cee806f1a56",
+                        "EnvironmentId": "f4777abf-2916-46ca-ab9d-2a0dba6772f3",
+                        "ExternalId": "test12341",
+                        "ExternalType": "movie",
+                        "ExternalProvider": null
+                    }
+                    */
                 }
             ]
         }
