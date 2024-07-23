@@ -52,10 +52,10 @@
         },
         {
             "name": "Lena",
-            "url": "https://f177dfb80b7349c8e418704e.blob.core.windows.net/video-output/scene/manifest.mpd",
+            "url": "./scene/manifest.mpd",
             "keys": [
                 {
-                    "keyId": "a991e012-abd0-4715-8ba9-6ce7837029fc",
+                    "keyId": "ffb64a33-e8d0-41d9-9395-51c5e7cbf1bf",
                     /*
                     {
                         "TenantType": "Mosaic",
