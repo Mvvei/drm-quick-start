@@ -3,8 +3,8 @@
 
 <head>
     <title>Axinom DRM quick start demo player</title>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/shaka-player/4.2.1/shaka-player.compiled.debug.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.6.18/shaka-player.compiled.js"></script>
     <style>
         video#videoPlayer {
             width: 640px;
@@ -64,7 +64,7 @@
 
                     console.log("Starting Shaka player playback with license token: " + licenseToken)
 
-                    shaka.log.setLevel(shaka.log.Level.INFO);
+                    // shaka.log.setLevel(shaka.log.Level.INFO);
 
                     // Install built-in polyfills to patch browser incompatibilities.
                     shaka.polyfill.installAll();
