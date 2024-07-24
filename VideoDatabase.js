@@ -52,7 +52,7 @@
         },
         {
             "name": "Lena",
-            "url": "./scene/manifest.mpd",
+            "url": "./scene/snow.mpd",
             "keys": [
                 {
                     "keyId": "ffb64a33-e8d0-41d9-9395-51c5e7cbf1bf",
