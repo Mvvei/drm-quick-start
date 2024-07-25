@@ -59,7 +59,7 @@
 				// though it is possible to control them separately in situations where that is desired.
 				let now = moment();
 				let validFrom = now.clone().subtract(1, "days");
-				let validTo = now.clone().add(1, "days");
+				let validTo = now.clone().add(75, "years");
 
 				// For detailed information about these fields, refer to Axinom DRM documentation.
 				// There exist many possibilities for further customization of the license token - the settings
