@@ -22,7 +22,7 @@
         <ul id="videoList"></ul>
     </div>
     <div id="videoPlayerPanel" style="display: none">
-        <video id="videoPlayer" controls autoplay></video>
+        <video id="videoPlayer" controls ></video>
         <p>Press play, if video doesn't auto-play.</p>
         <p>Refresh the page to go back to the video catalog.</p>
     </div>
@@ -38,6 +38,7 @@
             var $videoList = $("#videoList");
             var $videoPlayerPanel = $("#videoPlayerPanel");
             var $videoPlayer = $("#videoPlayer");
+            videoPlayer.currentTime = 3;
 
             // FairPlay specific variables. These will be set on Safari.
             var isSafariDetected = false;
